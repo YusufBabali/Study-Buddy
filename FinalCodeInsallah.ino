@@ -2,8 +2,8 @@
   ESP32 WiFi + SD Card + Study Scheduler + RTC
   Connects to existing WiFi network, gets time from NTP, and stores data on SD card
   
-  WiFi: Babalilar
-  Password: Laylaylom14.
+  WiFi: 
+  Password: 
   SD Card CS Pin: 5
   RTC Module: DS3231 (I2C)
 */
@@ -18,8 +18,8 @@
 #include <ArduinoJson.h>
 
 // --- Wi-Fi and SD Card Configuration ---
-const char* ssid = "Babalilar";
-const char* password = "Laylaylom14.";
+const char* ssid = "your Wifi";
+const char* password = "Your password";
 #define SD_CS_PIN 5
 
 // --- RTC and NTP Configuration ---
